@@ -1,0 +1,7 @@
+1. odczytanie pliku xls ok!
+2. wybranie dwoch kolumn ok
+2. wybranie dwoch komurek
+5. zczytanie dwoch komurek 
+4. porownanie zczytanych wyrazow w srodku czy sa takie same
+5. zapetlenie na ilosc wierszy
+6. przedstawienie wynikow
