@@ -17,6 +17,8 @@ for i in range (0, 9005):
 
         if np.array_equal(data_1, data_2):
             df.iloc[i, 3] = 'well'
+        else:
+            df.iloc[i, 3] = 'bad'
     except:
-        df.iloc[i, 3] = 'bad'
+        df.iloc[i, 3] = 'very bad'
 df.to_excel("numtest2.xlsx", sheet_name="Sheet3")
